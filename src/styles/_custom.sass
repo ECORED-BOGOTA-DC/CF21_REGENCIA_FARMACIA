@@ -1,19 +1,190 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
+    animation: float2 5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 13%
+    left: 10%
+    width: 9%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 22%
+    left: 11%
+    width: 8%
+  &-3
+    animation: float2 5s ease-in-out infinite alternate
+    position: absolute
+    top: 26%
+    right: 40%
+    width: 8%
+  &-4
+    animation: float1 5s ease-in-out infinite alternate
+    position: absolute
+    bottom: 9%
+    right: 13%
+    width: 9%
 
 
 @keyframes float1
   0%
-    transform: translateY(20px)
-
+    transform: translateY(30px)
+    opacity: 0
   100%
     transform: translateY(0px)
+    opacity: 1
+
+@keyframes float2
+  0%
+    transform: translateX(30px)
+    opacity: 1
+  100%
+    transform: translateX(0px)
+    opacity: 0
+  
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img01.png") !important
+
+.BGIMG01
+  background-image: url("../assets/curso/fondos/img01.png")
+
+.BGIMG02
+  background-image: url("../assets/curso/fondos/img02.png")
+
+.BGIMG01, .BGIMG02
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center
+
+.BGIMG01, .BGIMG02, .BGM08
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+.BGR01X, .img-infografica-b__modal
+  border: 2px solid #81D4FA
+
+.BGR01Y
+  border: 2px solid #CBBFF4
+
+.BGR01Z
+  border: 2px solid #4CEBFF
+  
+.tarjeta-numerada.color-secundario
+  border-color: #CBBFF4
+
+.tarjeta-numerada.color-acento-contenido
+  border-color: #4CEBFF
+
+.BGR03B, .BGR05B, .BGR06B
+  border: 2px solid $white
+
+.cajon.color-secundario
+  background-color: #E4DDFA
+
+.cajon.color-acento-contenido
+  background-color: #DCFBFF
+
+.BGRB01, .BGR01X, .BGR01Y, .BGR01Z, .tarjeta-numerada.color-primario, .tarjeta-numerada.color-secundario, .tarjeta-numerada.color-acento-contenido, .img-infografica-b__modal
+  background-color: $white
+
+.tarjeta-numerada.color-acento-contenido .tarjeta-numerada__numero
+  background-color: #4CEBFF
+
+.BG02
+  background-color: #BAE7FC
+
+.BG03, .BGR03B, .tarjeta-numerada.color-secundario .tarjeta-numerada__numero
+  background-color: #CBBFF4
+
+.BGR04
+  background-color: #F3F9FF
+
+.BGR05B
+  background-color: #81D4FA
+
+.BGR06B
+  background-color: #88F2FF
+
+.BG07, .tabs-b.color-primario .tabs-b__tab--active
+  background-color: #E6F7FE
+
+.BGM08
+  background: linear-gradient(to bottom, $white, #F1FAFD, #EBF8FC)
+
+.tabs-a__tab
+  background-color: #F6F6F6
+
+.BGRB01
+  border-bottom: 2px solid #00BCD4
+
+.img-infografica-b__modal__contenido div > *, .img-infografica-b.color-acento-botones .img-infografica-b__item__numero
+  color: $color-sistema-texto !important
+
+.img-infografica-b__modal__btn-cerrar i
+  color: #81D4FA
+
+.BGR01X, .BGR01Y, .BGR01Z, .BGR03B, .BGR04, .BGR05B, .BGR06B, .img-infografica-b__modal
+  border-radius: 10px
+
+.lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li
+  display: flex
+
+.hg-01
+  height: 397px
+  @media (max-width: $bp-max-xl)
+    height: 421px
+  @media (max-width: $bp-max-xl)
+    height: 380px
+  @media (max-width: $bp-max-md)
+    height: 397
+  @media (max-width: $bp-max-sm)
+    height: initial
+  
+.hg-02
+  height: 510px
+  @media (max-width: $bp-max-xl)
+    height: 582px
+  @media (max-width: $bp-max-lg)
+    height: initial
+  
+.hg-03
+  height: 108px
+  @media (max-width: $bp-max-lg)
+    height: 156px
+  @media (max-width: $bp-max-md)
+    height: initial
+  @media (max-width: $bp-max-sm)
+    height: 180px
+  @media (max-width: $bp-max-xs)
+    height: 204px
+  
+.hg-04
+  height: 132px
+  @media (max-width: $bp-max-xl)
+    height: 156px
+  @media (max-width: $bp-max-lg)
+    height: 204px
+  @media (max-width: $bp-max-md)
+    height: 180px
+  @media (max-width: $bp-max-sm)
+    height: 228
+  @media (max-width: $bp-max-xs)
+    height: 252px
+
+.slyder-a__bullets__item--active
+  background-color: #00BCD4 !important
+
+.slyder-a__bullets__item
+  background-color: #C3F8FF
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FFF
+  @media (max-width: $bp-max-xs)
+    width: 25px
+    height: 25px
+  
+.slyder-a__bullets__item
+  @media (max-width: $bp-max-xs)
+    width: 7px
+    height: 7px
+    margin: 0 5px

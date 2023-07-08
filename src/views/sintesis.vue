@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
+    p.mb-5 La preparación de productos farmacéuticos implica tener un conocimiento amplio de las fuentes naturales como materia prima (plantas), su estructura química molecular, sus propiedades biológicas, al igual que conocer de estas su historia, evolución, relación con otras ciencias, su procesamiento, extracción y las diversas aplicaciones que de estas se hacen, atendiendo además la normativa en salud existente para este tipo de productos. Por lo anterior el componente formativo visto apropió los diversos temas que se esquematizan a través del siguiente mapa conceptual: 
 
     .row.justify-content-center
       .col-lg-10.mb-5
