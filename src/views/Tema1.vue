@@ -19,7 +19,7 @@
         ul.lista-ul--color
           li(style="margin-bottom: 2px")
             i.fas.fa-atom(style="color: #7E5EE3;")
-            | Microbiano (hongos. bacterias).
+            | Microbiano (hongos, bacterias).
       .col-lg-3.col-md-8.col-10(data-aos="fade-left")
         ul.lista-ul--color
           li(style="margin-bottom: 2px")
@@ -121,14 +121,14 @@
             figure
               img(src='@/assets/curso/tema1/img13.svg', alt='Microescopio')        
         .h4.text-center Farmacognosia general
-        p.mb-0 La farmacognosia general se encarga del estudio de las drogas en temas relacionados con su origen, historia, mecanismo a de recolección, formas de selección, desecación, comercialización, descripción, composición química, técnica para identificarlas, valorarlas, conservarlas y usarlas.
+        p.mb-0 Se encarga del estudio de las drogas en temas relacionados con su origen, historia, mecanismo de recolección, formas de selección, desecación, comercialización, descripción, composición química, técnica para identificarlas, valorarlas, conservarlas y usarlas.
       .col-lg-5.col-md.tarjeta.BG03.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-lg-4.col-6
             figure
               img(src='@/assets/curso/tema1/img14.svg', alt='Drogas naturales')        
         .h4.text-center Farmacognosia especial
-        p.mb-0 La farmacognosia especial enfoca sus estudios en las drogas naturales y las agrupa según su estructura química: alcaloides, aceites esenciales, glúcidos cardiotónicos, flavonoides, cumarinas, gomas, resinas, pectinas, cumarinas, etc. 
+        p.mb-0 Enfoca sus estudios en las drogas naturales y las agrupa según su estructura química: alcaloides, aceites esenciales, glúcidos cardiotónicos, flavonoides, cumarinas, gomas, resinas, pectinas, cumarinas, etc.
 
     .row.justify-content-start.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.px-0

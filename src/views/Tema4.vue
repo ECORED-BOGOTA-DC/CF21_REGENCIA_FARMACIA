@@ -41,7 +41,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img02.jpg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Permite obtener los principios activos disueltos en los fluidos propios de la planta, los cuales una vez extraídos se denominan jugo. La extracción mecánica se puede realizar por expresión, la cual consiste en ejercer una presión sobre la droga, por calor o mediante incisiones por las que fluyen los fluidos de la planta.
+        p.mb-0 Permite obtener los principios activos disueltos en los fluidos propios de la planta, los cuales una vez extraídos como se denominan jugo. La extracción mecánica se puede realizar por expresión, la cual consiste en ejercer una presión sobre la droga, por calor o mediante incisiones por las que fluyen los fluidos de la planta.
 
     p.mb-5 A continuación, se muestra un ejemplo del método de expresión por calor y presión, el cual se refiere a la acción mecánica que se lleva a cabo cuando se exprime un material vegetal para obtener la esencia de este. Se utiliza en casos como la lima, limón, mandarina y naranja. Se exprimen todas las esencias que contienen los materiales vegetales dentro de este y se realiza la recolección para su uso luego de pasar por el proceso de filtración.
 

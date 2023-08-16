@@ -198,9 +198,14 @@
       .tarjeta.BGR04.p-4(titulo="Higiene")
         p La higiene es un aspecto importante debido a que con esta se evita la contaminación de la planta. 
         .h5.text-center Las recomendaciones para cumplir con este requisito son las siguientes:
-        figure.indicador__container(@click="modal4 = true")
-          img(src='@/assets/curso/tema3/img10.svg')
-          .indicador--click(v-if="mostrarIndicador")
+        .BGR06B.p-4.mb-4
+          p.text-center.mb-0 No recolectar plantas muy húmedas, ni lavarlas por el peligro de pudrición.
+        .BGR03B.p-4.mb-4
+          p.text-center.mb-0 Separar las hierbas de tierra, palos y piedras.
+        .BGR05B.p-4.mb-4
+          p.text-center.mb-0 Solo escoger partes vegetales sanas, libres de parásitos, caracoles, mohos, polvo, etc.
+        .BGR06B.p-4
+          p.text-center.mb-0 Que se han secado naturalmente, no se usan porque han estado expuestas mucho tiempo al aire.
       .tarjeta.BGR04.p-4(titulo="Transporte")
         p Durante el transporte de las plantas pueden ocurrir ciertas situaciones que deterioren o alteren las propiedades de estas. Debido a esto, se deben cumplir con las siguientes recomendaciones:
         figure.indicador__container(@click="modal5 = true")
@@ -274,13 +279,13 @@
               img(src='@/assets/curso/tema3/img13.svg', alt='Factores para considerar')
           
           div(x="59.5%" y="8.5%" tooltip="Factores climáticos" numero="+")
-            .h5 <a style="color: #7E5EE3">Factores climáticos</a>
+            .h5 <span style="color: #7E5EE3">Factores climáticos</span>
             p.mb-0 Pueden condicionar que se establezca un determinado tipo de cultivo en una región, ya que puede afectar el crecimiento, desarrollo y la síntesis de los principios activos.
           div(x="84%" y="62%" tooltip="Factores topográficos" numero="+")
-            .h5 <a style="color: #7E5EE3">Factores topográficos</a>
+            .h5 <span style="color: #7E5EE3">Factores topográficos</span>
             p.mb-0 Para tener en cuenta la influencia de los factores topográficos en la conservación de las plantas medicinales se deben contemplar las variables climáticas. La temperatura decrece a medida que la altitud aumenta y esto produce una gran variedad de pisos ecológicos. La radiación sola también incide sobre la vegetación.
           div(x="39%" y="62%" tooltip="Factores edáficos" numero="+")
-            .h5 <a style="color: #7E5EE3">Factores edáficos</a>
+            .h5 <span style="color: #7E5EE3">Factores edáficos</span>
             p.mb-0 En los factores edáficos se debe tener presente la influencia de las características físicas y químicas que tienen mucha influencia en el procesamiento de las plantas medicinales.
           div(x="17%" y="38%" tooltip="Temperatura" numero="+")
             .h5 Temperatura
@@ -348,15 +353,9 @@
     ModalA(:abrir-modal.sync="modal3")
       div
         img(src='@/assets/curso/tema3/img09.svg')
-      
-    ModalA(:abrir-modal.sync="modal4")
-      div
-        img(src='@/assets/curso/tema3/img10.svg')
-
     ModalA(:abrir-modal.sync="modal5")
       div
         img(src='@/assets/curso/tema3/img11.svg')
-    
     ModalA(:abrir-modal.sync="modal6")
       div
         img(src='@/assets/curso/tema3/img12.svg')
@@ -373,7 +372,6 @@ export default {
     modal1: false,
     modal2: false,
     modal3: false,
-    modal4: false,
     modal5: false,
     modal6: false,
   }),

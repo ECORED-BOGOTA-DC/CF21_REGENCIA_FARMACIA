@@ -46,7 +46,7 @@
       .row.justify-content-center
         .col-lg-6
           .titulo-sexto.color-acento-botones(data-aos="fade-right")
-            h5 Figura 1
+            h5 Figura 1.
             span Relación de la farmacognosia con otras ciencias
           figure(data-aos="zoom-in")
             img(src='@/assets/curso/tema2/img02.svg' alt="Relación de la farmacognosia")
