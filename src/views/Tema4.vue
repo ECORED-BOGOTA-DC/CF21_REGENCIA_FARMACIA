@@ -9,7 +9,7 @@
     
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema4/img01.png')
+        img(src='@/assets/curso/tema4/img01.png' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 Para la realización de esta actividad se parte de la droga y se lleva a cabo el proceso de extracción para realizar el aislamiento de los principios activos de manera directa de las drogas. Entre los métodos de extracción existen los siguientes:
@@ -49,11 +49,11 @@
       .BG07(titulo="Extracción por expresión" :icono="require('@/assets/curso/tema4/img03.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-10
-            img(src='@/assets/curso/tema4/img04.svg')
+            img(src='@/assets/curso/tema4/img04.svg' alt="Imagen que contiene un ejemplo de extracción por expresión, la cual se lleva a cabo por:<br>Planta + agua<br>Agua fría<br>Escenario<br>Aceite esencial<br>Hidrolato")
       .BG07(titulo="Extracción por presión" :icono="require('@/assets/curso/tema4/img05.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-10
-            img(src='@/assets/curso/tema4/img06.svg')
+            img(src='@/assets/curso/tema4/img06.svg' alt="Esquema con un ejemplo de extracción por presión, el cual relaciona que se hace a través de:<br>Materia prima<br>Aceite<br>Placa filtrante<br>Aceite bruto<br>Torta o pasta residual")
     
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -65,7 +65,7 @@
     .BGIMG01.px-md-5.px-4.mb-5
       .row.justify-content-center(data-aos="zoom-in")
         .col-lg-10
-          img(src='@/assets/curso/tema4/img07.svg')
+          img(src='@/assets/curso/tema4/img07.svg' alt="Imagen que contiene un ejemplo de montaje para la extracción por destilación, el cual relaciona:<br>Droga que se destila<br>Termómetro<br>Vapor<br>Salida de agua<br>Condensador<br>Matraz receptor")
     
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -81,32 +81,32 @@
             .h4 <a style="color: #00BCD4">Características de la droga</a>
             p.mb-0 Se debe trabajar con drogas desecadas y con un grado de división adecuado (mayor en drogas duras con las cortezas y menor en drogas blandas como flores y hojas), para facilitar el máximo contacto entre los principios activos y el disolvente.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img08.png')
+            img(src='@/assets/curso/tema4/img08.png' alt="Imagen decorativa")
         .row.justify-content-center.align-items-center
           .col-lg-6.order-lg-1.order-2
             .h4 <a style="color: #00BCD4">Naturaleza del solvente</a>
             p Principalmente se utilizan en las extracciones el agua y las mezclas hidroalcohólicas (agua y alcohol etílico) en proporción variable. 
             p.mb-0 También es posible utilizar otros solventes orgánicos como acetona, éter etílico, hexano, propilenglicol (muy usado en cosmética), entre otros. El agua es un buen solvente de muchos principios activos de las drogas; pero por esta misma razón, resulta generalmente poco selectivo. Además, muchos principios activos se hidrolizan en agua. Por otra parte, los extractos acuosos tienen una estabilidad poco duradera una vez preparados y deben de ser obtenidos para su utilización en un periodo de tiempo relativamente corto. La utilización de mezclas variables de agua y alcohol permite seleccionar las sustancias sin interés farmacológico, así como separar los principios activos entre sí.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img09.png')
+            img(src='@/assets/curso/tema4/img09.png' alt="Imagen decorativa")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
             .h4 <a style="color: #00BCD4">Temperatura</a>
             p.mb-0 El aumento de la temperatura favorece la extracción de principios activos de las drogas porque aumenta su solubilidad en los solventes utilizados, pero a su vez, puede favorecer la degradación de dichos compuestos, por lo que es necesario controlarla para obtener una máxima extracción sin consecuencias indeseables. En ningún caso se pueden utilizar temperaturas elevadas para extraer principios activos termolábiles.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img10.png')
+            img(src='@/assets/curso/tema4/img10.png' alt="Imagen decorativa")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
             .h4 <a style="color: #00BCD4">Tiempo de contacto entre la droga y el disolvente</a>
             p.mb-0 Depende de las características de la droga (dureza, grado de división) y de la naturaleza de los principios activos (volátiles, hidrolizables, oxidables, entre otros).
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img11.png')
+            img(src='@/assets/curso/tema4/img11.png' alt="Imagen decorativa")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
             .h4 <a style="color: #00BCD4">Control de la difusión celular</a>
             p.mb-0 Una correcta difusión se consigue cuando la droga ofrece un grado de difusión adecuado (mayor superficie de difusión) y cuando se renueva constantemente el solvente utilizado en las extracciones. Al renovar el solvente se mantiene una diferencia de concentración de principios activos entre la droga y el solvente utilizado en la extracción.
           .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img12.png')
+            img(src='@/assets/curso/tema4/img12.png' alt="Imagen decorativa")
     
     separador
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -139,7 +139,7 @@
                 i.fas.fa-play-circle(style="color: #00BCD4; font-size: xx-small")
                 | Se emplea para drogas de tejidos delicados, fácilmente penetrables (hojas, yemas, flores).
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img13.png')
+            img(src='@/assets/curso/tema4/img13.png' alt="Imagen decorativa")
       .BG07(titulo="Decocción o cocimiento" :icono="require('@/assets/curso/tema4/img14.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-7.order-lg-1.order-2
@@ -154,12 +154,12 @@
                 i.fas.fa-play-circle(style="color: #00BCD4; font-size: xx-small")
                 | Se deberá reponer el agua que se va evaporando, para que no se queme la droga.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img14.png')
+            img(src='@/assets/curso/tema4/img14.png' alt="Imagen decorativa")
       .BG07(titulo="Destilación en corriente de vapor" :icono="require('@/assets/curso/tema4/img15.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-11
             .tarjeta.tarjeta--blanca.p-4
-              img(src='@/assets/curso/tema4/img16.svg')
+            img(src='@/assets/curso/tema4/img16.svg' alt="Imagen que contiene el proceso de destilación en corriente de vapor, el cual contiene:<br>El vapor atraviesa el material vegetal y se vaporiza y se evapora el aceite.<br>Torta<br>Aceite esencial de la parte superior del separador<br>Corriente de entrada<br>Mezcla de vapor y vapores de aceite<br>Salida de agua caliente del condensador<br>Condensador<br>Entrada de agua fría al condensador<br>Separador<br>Hidrolato de la parte inferior del separador")
 
     .h5.text-center.mb-5 Extracción con disolventes orgánicos:
     TabsB.color-primario.mb-5
@@ -172,7 +172,7 @@
             p Se separa el extracto del residuo por medio de un colado o prensado, se lava el residuo con el líquido de extracción. 
             p.mb-0 La maceración es útil cuando los principios son fácilmente solubles en frío y cuando la acción de la temperatura los altera.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img17.png')
+            img(src='@/assets/curso/tema4/img17.png' alt="Imagen decorativa")
       .BG07(titulo="Digestión" :icono="require('@/assets/curso/tema4/img18.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-7.order-lg-1.order-2
@@ -181,19 +181,19 @@
             p Cuando el menstruo es volátil se debe adaptar un sistema de refrigerante a reflujo. 
             p.mb-0 Ejemplo, Jarabe de Tolú, codificado en FNA VI Ed.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img18.png')
+            img(src='@/assets/curso/tema4/img18.png' alt="Imagen decorativa")
       .BG07(titulo="Percolación o lixiviación" :icono="require('@/assets/curso/tema4/img19.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-7.order-lg-1.order-2
             p.mb-0 Se trata de un proceso de paso, si bien hay una maceración previa, el disolvente se renueva de manera continua y debido a ello mantiene el gradiente de concentración lo más alto posible, el disolvente corre de arriba hacia abajo a través de la capa de la droga, el disolvente puro desplaza al que contiene la sustancia extraída sin ser necesario aplicar presión.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img19.png')
+            img(src='@/assets/curso/tema4/img19.png' alt="Imagen decorativa")
       .BG07(titulo="Extracción por aparato soxhlet" :icono="require('@/assets/curso/tema4/img20.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-7.order-lg-1.order-2
             p.mb-0 El uso de un aparato soxhlet es una manera conveniente de preparar extractos crudos de plantas. Este proceso usa preferentemente solventes puros, aunque algunos autores han utilizado mezclas binarias (mezclas de dos solventes) o terciarias (de tres solventes).
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img21.svg')
+            img(src='@/assets/curso/tema4/img21.svg' alt="Imagen decorativa")
 
 
 </template>

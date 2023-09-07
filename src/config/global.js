@@ -116,7 +116,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/331502_CF21_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -134,23 +134,9 @@ export default {
     {
       tema: 'Farmacognosia',
       referencia:
-        'Brunete, J. (1993). Farmacognosia. Fitoquímica Plantas medicinales. Editorial Acribia.',
-      tipo: 'Libro PDF',
-      descarga: '/downloads/Farmacognosia_bruneton.pdf',
-    },
-    {
-      tema: 'Farmacognosia',
-      referencia:
         'Palacios, M. (2013). Texto digital de farmacognosia y fitoquímica.',
       tipo: 'Texto digital',
-      link: 'https://issuu.com/leono/docs/farmacognosia_y_fitoqu__mica_tf ',
-    },
-    {
-      tema: 'Métodos de extracción',
-      referencia:
-        'Moreno, E. (2019). Métodos de extracción de plantas medicinales.',
-      tipo: 'Documento',
-      descarga: '/downloads/Métodos_de_Extracción_de_plantas_medicinales.pdf',
+      link: 'https://issuu.com/leono/docs/farmacognosia_y_fitoqu__mica_tf',
     },
   ],
   glosario: [
@@ -296,8 +282,20 @@ export default {
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },

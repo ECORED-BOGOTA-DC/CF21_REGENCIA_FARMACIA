@@ -38,11 +38,11 @@
         p Compuestos orgánicos constituyentes de alimentos de origen vegetal, que no son nutrientes y que proporcionan al alimento unas propiedades fisiológicas que van más allá de las nutricionales propiamente dichas.
         p.mb-0 Algunos de los nombres de dichas sustancias químicas son:
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img02.png')
+        img(src='@/assets/curso/tema3/img02.png' alt="Imagen decorativa")
     
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema3/img03.png')
+        img(src='@/assets/curso/tema3/img03.png' alt="Imagen decorativa")
       .col-lg-8(data-aos="fade-left")
         ul.lista-ul--color
           li(style="margin-bottom: 2px")
@@ -96,14 +96,14 @@
               .h2 2
             .h5.text-center Fenoles
             p.mb-5 <a style="color: #592C95; font-weight: 900">Flavonoides</a> (azul, azul anaranjado, violeta).
-            img(src='@/assets/curso/tema3/img04.png' alt="Arandanos")
+            img(src='@/assets/curso/tema3/img04.png' alt="Imagen decorativa")
         .col-xl.col-md-6.mb-4.mb-xl-0(data-aos="flip-up")
           .tarjeta-numerada.color-acento-contenido.hg-01.ps-5.pe-2.py-4
             .tarjeta-numerada__numero
               .h2 3
             .h5.text-center Quercetinas
             p.mb-5 Cebolla.
-            img(src='@/assets/curso/tema3/img05.png' alt="Cebolla")
+            img(src='@/assets/curso/tema3/img05.png' alt="Imagen decorativa")
         .col-xl.col-md-6(data-aos="fade-left")
           .tarjeta-numerada.color-primario.hg-01.ps-5.pe-2.py-4
             .tarjeta-numerada__numero
@@ -174,7 +174,7 @@
                   span 9
                 | Extracción.
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema3/img06.png')
+        img(src='@/assets/curso/tema3/img06.png' alt="Imagen decorativa")
 
     .h5.text-center.mb-5 A continuación, se definen las características de cada una de las etapas del proceso de estudio de las plantas medicinales:
 
@@ -182,18 +182,18 @@
       .tarjeta.BGR04.p-4(titulo="Identificación")
         .h5.text-center.mb-5 En la identificación de la planta se tienen en cuenta aspectos como:
         figure.indicador__container(@click="modal1 = true")
-          img(src='@/assets/curso/tema3/img07.svg')
+          img(src='@/assets/curso/tema3/img07.svg' alt="Esquema con los aspectos a tener en cuenta en la planta como son:<br>Taxonomía. Es la ciencia de la clasificación de grupos (taxones) de organismos en categorías formales. <br>Sistemática.  Es el estudio de las relaciones entre grupos. <br>Especie. Es la unidad de clasificación que se define como un grupo de organismos que se cruzan entre sí. Se designan con un sistema binomial que comprende el número del género seguido por el epíteto específico. <br>Género.  Agrupa especies similares. Los géneros se agrupan en familias. <br>Familias. Las familias se agrupan en órdenes, los órdenes en clases, las clases en divisiones y las divisiones en reinos.<br>Ejemplo. «Llantén menor» Plantago Lanceolata (NC). «Llantén Mayor» Plantago Major NC). Plantago es el género, Lanceolata y Major son las especies.")
           .indicador--click(v-if="mostrarIndicador")
       .tarjeta.BGR04.p-4(titulo="Medidas recolección")
         p Para la recolección de las plantas medicinales se deben tener en cuenta ciertas medidas, recomendaciones y aspectos a evitar, los cuales buscan que se recolecte un material de buena calidad, sin contaminantes; que se utilicen herramientas adecuadas para no dañar la planta; qué partes de la planta utilizar y el momento adecuado para recolectar la planta teniendo en cuenta su madurez. 
         p Las recomendaciones para una correcta recolección son:
         figure.indicador__container(@click="modal2 = true")
-          img(src='@/assets/curso/tema3/img08.svg')
+          img(src='@/assets/curso/tema3/img08.svg' alt="Esquema con las recomendaciones para una correcta recolección, las cuales son:<br>No aprovechar las plantas que son escasas en la zona de recolección.<br>Las plantas jóvenes o poco desarrolladas no deben tocarse. Tampoco las que no serán usadas con fines medicinales. <br>Nunca se debe sacar una planta de raíz, a no ser que sus propiedades medicinales se encuentren precisamente allí. <br>Para cortar se usa un cuchillo afilado o una tijera de podar, para no dañar el resto de la planta. <br>No recolectar en lugares contaminados. No se debe recolectar en lugares tales como:<br>Calles u orillas de caminos, por las emanaciones tóxicas de los caños de escape. <br>En canales u otros cursos de agua contaminados.<br>Alrededor de industrias contaminadas.<br>Cerca de cultivos en potreros, porque en ellos se emplean plaguicidas.")
           .indicador--click(v-if="mostrarIndicador")
       .tarjeta.BGR04.p-4(titulo="Requisitos recolección")
         .h5.text-center.mb-5 De acuerdo con las características de la planta y el tipo es recomendable cumplir con los siguientes requisitos:
         figure.indicador__container(@click="modal3 = true")
-          img(src='@/assets/curso/tema3/img09.svg')
+          img(src='@/assets/curso/tema3/img09.svg' alt="Esquemas con los requisitos de recolección, los cuales son:<br>Árboles y arbustos altos. Cortar ramas solo si se necesita recolectar corteza. Nunca arrancar corteza de ramas principales, ni mucho menos de troncos, pues cada pedazo de corteza arrancado es una herida irrecuperable para la planta. <br>Arbustos bajos y hierbas perennes. Se cortan algunas ramas por planta, desde 10 cm del suelo para que la planta pueda recuperarse. <br>Hierbas anuales. Recolectar en lugares donde sean abundantes. Llevar solo algunas para que haya suficiente producción de semillas y el número de plantas no disminuya al año siguiente. <br>Flores, frutos y semillas. Recolectar siempre solo una pequeña cantidad por planta, para no alterar el proceso reproductivo de esta.")
           .indicador--click(v-if="mostrarIndicador")
       .tarjeta.BGR04.p-4(titulo="Higiene")
         p La higiene es un aspecto importante debido a que con esta se evita la contaminación de la planta. 
@@ -209,7 +209,7 @@
       .tarjeta.BGR04.p-4(titulo="Transporte")
         p Durante el transporte de las plantas pueden ocurrir ciertas situaciones que deterioren o alteren las propiedades de estas. Debido a esto, se deben cumplir con las siguientes recomendaciones:
         figure.indicador__container(@click="modal5 = true")
-          img(src='@/assets/curso/tema3/img11.svg')
+          img(src='@/assets/curso/tema3/img11.svg' alt="Esquema con las recomendaciones de transporte, las cuales son:<br>El transporte de las hierbas<br>Se hace en recipientes bien aireados, tales como bolsas de malla, sacos harineros limpios.<br>Evitar<br>El uso de bolsas de polietileno (plástico), porque provoca un comienzo de pudrición en pocas horas.")
           .indicador--click(v-if="mostrarIndicador")
       .tarjeta.BGR04.p-4(titulo="Tipos secado")
         p El secado es muy importante dentro del proceso, debido a que se realiza para poder guardar la planta para posteriores usos (la hierba se seca para poder guardarla y así usarla en una época en que no se pueda conseguir). Existen diferentes tipos de secado y para cumplir con un proceso adecuado de secado hay que tener en cuenta las siguientes consideraciones: 
@@ -265,10 +265,10 @@
                 li(style="margin-bottom: 2px")
                   i.fas.fa-play-circle(style="color: #88F2FF; font-size: xx-small")
                   | Las ventajas de este sistema son que la malla de los marcos y la distancia entre ellos garantizan una buena circulación del aire para toda la hierba puesta a secar, haciendo el secado mucho más rápido.
-      .tarjeta.BGR04.p-4(titulo="Recomendaciones secado")
+      .tarjeta.BGR04.p-4(titulo="Recomendaciones de secado")
         .h5.text-center.mb-5 Es de vital importancia tener presente las siguientes recomendaciones:
         figure.indicador__container(@click="modal6 = true")
-          img(src='@/assets/curso/tema3/img12.svg')
+          img(src='@/assets/curso/tema3/img12.svg' alt="Esquema con las recomendaciones de secado, las cuales son:<br>Tanto para el secado por capas, como para el secado en capas sobre marcos, no se pone la hierba apretada, sino más bien suelta, para que el aire circule bien. <br>Una planta bien secada es quebradiza, tiene buen aspecto y huele bien, su color cambia de tono. (Hojas verdes al verde claro, pétalos rosados a azules, pétalos amarillos a amarillo claro, pétalos blancos a crema)<br>Su aroma cambia ligeramente, lo que es notorio en plantas aromáticas. <br>Una planta café, negruzca, demasiado arrugada o de color desagradable está mal secada.")
           .indicador--click(v-if="mostrarIndicador")
       .tarjeta.BGR04.p-4(titulo="Conservación")
         p Existen diferentes aspectos que pueden influir de manera directa en la conservación del material durante el procesamiento de este. El impacto puede verse reflejado tanto en el crecimiento, desarrollo y en la biosíntesis de sus principios activos.
@@ -276,7 +276,7 @@
         ImagenInfograficaB.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema3/img13.svg', alt='Factores para considerar')
+              img(src='@/assets/curso/tema3/img13.svg')
           
           div(x="59.5%" y="8.5%" tooltip="Factores climáticos" numero="+")
             .h5 <span style="color: #7E5EE3">Factores climáticos</span>
@@ -344,21 +344,21 @@
 
     ModalA(:abrir-modal.sync="modal1")
       div
-        img(src='@/assets/curso/tema3/img07.svg')
+        img(src='@/assets/curso/tema3/img07.svg' alt="Imagen decorativa")
       
     ModalA(:abrir-modal.sync="modal2")
       div
-        img(src='@/assets/curso/tema3/img08.svg')
+        img(src='@/assets/curso/tema3/img08.svg' alt="Imagen decorativa")
       
     ModalA(:abrir-modal.sync="modal3")
       div
-        img(src='@/assets/curso/tema3/img09.svg')
+        img(src='@/assets/curso/tema3/img09.svg' alt="Imagen decorativa")
     ModalA(:abrir-modal.sync="modal5")
       div
-        img(src='@/assets/curso/tema3/img11.svg')
+        img(src='@/assets/curso/tema3/img11.svg' alt="Imagen decorativa")
     ModalA(:abrir-modal.sync="modal6")
       div
-        img(src='@/assets/curso/tema3/img12.svg')
+        img(src='@/assets/curso/tema3/img12.svg' alt="Imagen decorativa")
         
 
 

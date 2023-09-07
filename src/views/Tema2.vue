@@ -40,7 +40,7 @@
           p.mb-0 Actualmente, la farmacognosia tiene un alto grado de perfeccionamiento en las actividades relacionadas con la extracción de los principios activos de fuentes naturales y la biosíntesis de sustancias con aplicaciones industriales y actividad terapéutica. Esto se debe al avance de otras ciencias y de la tecnología.
         p.mb-0 Es así como la farmacognosia ha tenido la oportunidad de relacionarse con diferentes ciencias, generando muchos beneficios en diferentes campos de acción. En la siguiente figura se observará las diferentes aplicaciones de esta ciencia.
       .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src='@/assets/curso/tema2/img01.png' alt="Sustancias de origen natural")
+        img(src='@/assets/curso/tema2/img01.png' alt="Imagen decorativa")
 
     .BGIMG01.px-md-5.px-4.mb-5
       .row.justify-content-center
@@ -49,7 +49,7 @@
             h5 Figura 1.
             span Relación de la farmacognosia con otras ciencias
           figure(data-aos="zoom-in")
-            img(src='@/assets/curso/tema2/img02.svg' alt="Relación de la farmacognosia")
+            img(src='@/assets/curso/tema2/img02.svg' alt="Esquema que relaciona las farmacognosia con las siguientes ciencias:<br>Farmacotecnia<br>Análisis químico<br>Toxicología<br>Bioquímica<br>Biología<br>Botánica<br>Fitoterapia<br>Farmacia galénica <br>Farmacología")
 
 </template>
 

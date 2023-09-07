@@ -28,7 +28,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img01.png' alt="Materia prima natural")
+        img(src='@/assets/curso/tema1/img01.png' alt="Imagen decorativa")
       .col-lg-8
         .cajon.color-secundario.p-4.mb-4(data-aos="fade-left") 
           p.mb-0 Es la ciencia encargada del estudio de las fuentes naturales de materia prima de interés farmacéutico, estudiando tanto sustancias con propiedades terapéuticas como sustancias tóxicas, excipientes u otras sustancias de interés farmacéutico, aunque su uso sea básicamente tecnológico y no terapéutico (por ejemplo, el algodón y el almidón). En general, trata sobre los aspectos botánicos, químicos, biológicos y económicos de las drogas, destinadas a la preparación de medicamentos, de aquí que muchos autores designan a la farmacognosia como “materia médica” o “materia farmacéutica”. La farmacognosia es la más antigua de las ciencias médicas, debido a que el hombre primitivo tuvo que aprender a distinguir los productos que le servían de alimento y los curativos de los tóxicos.
@@ -119,14 +119,14 @@
         .row.justify-content-center.mb-4
           .col-lg-4.col-6
             figure
-              img(src='@/assets/curso/tema1/img13.svg', alt='Microescopio')        
+              img(src='@/assets/curso/tema1/img13.svg', alt='Imagen decorativa')        
         .h4.text-center Farmacognosia general
         p.mb-0 Se encarga del estudio de las drogas en temas relacionados con su origen, historia, mecanismo de recolección, formas de selección, desecación, comercialización, descripción, composición química, técnica para identificarlas, valorarlas, conservarlas y usarlas.
       .col-lg-5.col-md.tarjeta.BG03.p-5(data-aos="fade-left")
         .row.justify-content-center.mb-4
           .col-lg-4.col-6
             figure
-              img(src='@/assets/curso/tema1/img14.svg', alt='Drogas naturales')        
+              img(src='@/assets/curso/tema1/img14.svg', alt='Imagen decorativa')        
         .h4.text-center Farmacognosia especial
         p.mb-0 Enfoca sus estudios en las drogas naturales y las agrupa según su estructura química: alcaloides, aceites esenciales, glúcidos cardiotónicos, flavonoides, cumarinas, gomas, resinas, pectinas, etc.
 
@@ -141,15 +141,15 @@
 
     TabsA.color-primario.mb-5
       .tarjeta.BGR04.p-4(titulo="Farmacoergasia")
-        img(src='@/assets/curso/tema1/img15.svg', alt='Diagrama Farmacoergasia')
+        img(src='@/assets/curso/tema1/img15.svg', alt='Esquema de la Farmacoergasia, la cual estudia los procesos de producción realizados a las plantas relacionados con los siguientes aspectos:<br>Cultivo<br>Recolección<br>Secado<br>Almacenamiento')
       .tarjeta.BGR04.p-4(titulo="Farmacoetnología")
-        img(src='@/assets/curso/tema1/img16.svg', alt='Diagrama Farmacoetnología')
+        img(src='@/assets/curso/tema1/img16.svg', alt='Esquema de la Farmacoetnología, la cual estudia el uso de las plantas en diferentes regiones del mundo a través de la historia. Se registra en las farmacopeas occidentales. Su información proviene de las culturas griegas y romanas.<br>Algunos ejemplos de drogas son:<br>Ipecacuana (Tratamiento de la disentería amebiana)<br>Reserpina (Tratamiento de la hipertensión)<br>Vincristina (Tratamiento de ciertos tipos de leucemia)<br>Vinblastina (Tratamiento de linfoma de hodgking)')
       .tarjeta.BGR04.p-4(titulo="Farmacogeografía")
-        img(src='@/assets/curso/tema1/img17.svg', alt='Diagrama Farmacogeografía')
+        img(src='@/assets/curso/tema1/img17.svg', alt='Esquema de la Farmacogeografía, la cual estudia las zonas geográficas y cómo se distribuyen las drogas, Los factores que la determinan son la facilidad que existe de obtener la planta del entorno y los aspectos relacionados con temas económicos relacionados con el proceso productivo en un determinado lugar. Aspectos a tener en cuenta:<br>Muchas plantas crecen muy bien y de manera similar en diferentes zonas con iguales condiciones climáticas; sin embargo, las condiciones económicas son diferentes y esto afecta la recolección o cultivo.<br>El desarrollo económico de muchos países se basa en la producción de plantas medicinales. Uno de los mejores ejemplos son en países como la India y el suroeste asiático. ')
       .tarjeta.BGR04.p-4(titulo="Farmacoetimología")
-        img(src='@/assets/curso/tema1/img18.svg', alt='Diagrama Farmacoetimología')
+        img(src='@/assets/curso/tema1/img18.svg', alt='Esquema de la Farmacoetimología, la cual estudia los diferentes nombres de las drogas en los diferentes pueblos, de la misma o distinta lengua; sin embargo. para no ir muy lejos, según la encuesta nacional de plantas medicinales y aromáticas en Colombia realizada por el Instituto Alexander Von Humbolt se presentan conflictos, tanto con los nombres comunes como con los nombres científicos, en cuanto a las especies manejadas por los laboratorios naturistas.<br>Como ejemplos se tienen:<br>La altamisa (Ambrosia cumanensis), conocida también con el nombre de artemisa, diferente de la especie Arthemisia absinthium L. conocida con el nombre común de Ajenjo, y completamente diferente a la especie anterior, aunque de la misma familia taxonómica (Compositae). Entonces, si se reporta la especie como artemisa no se reconoce de cuál especie se está hablando, si del ajenjo (Artemisia absinthium L.) o de la Altamisa (Ambrosia cumanensis).  <br>Las rutas de esta rama son:<br>La asociación de un mismo nombre vulgar a varias especies vegetales y viceversa, puede acarrear problemas sanitarios y también, posiblemente, creencias erróneas sobre la eficacia de un remedio. Se recomienda que ante una consulta sanitaria el paciente indique a su médico si toma infusiones u otros preparados vegetales, especialmente en el caso de tratarse de especies autóctonas utilizadas como remedio en medicina popular, ya que, como ejemplo, es muy diferente tomar “tila” procedente de Crataegus monogyna.')
       .tarjeta.BGR04.p-4(titulo="Farmacoemporia")
-        img(src='@/assets/curso/tema1/img19.svg', alt='Diagrama Farmacoemporia')
+      img(src='@/assets/curso/tema1/img19.svg', alt='Esquema de la Farmacoemporia, la cual estudia el comercio, los puertos y todas las rutas que se utilizan para comercializar las plantas. Sus formas de adquirirlas son por:<br>Compra de grandes cantidades de droga a través de agentes extranjeros.<br>Aspectos a temer en cuenta:<br>Solicitar muestras por adelantado.<br>Solicitar certificados de análisis.<br>Existen productos caros que son susceptibles  de adulteración (azafrán, opio, cáñamo).<br>Comerciantes o agentes en la modalidad por consignación.')
       .tarjeta.BGR04.p-4(titulo="Farmacodiascomia")
         p Estudia los empaques y los embalajes de las drogas naturales. Los recipientes más adecuados suelen ser los recipientes metálicos; pero también los de vidrio, los cuales son más utilizados.
         p Los recipientes de madera, tela o plástico no son recomendables porque suelen ser relativamente permeables al aire y a los agentes externos. Las esencias deben de conservarse en envases herméticos totalmente llenos y en un lugar frío y oscuro.
