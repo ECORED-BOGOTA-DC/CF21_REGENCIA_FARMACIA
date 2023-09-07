@@ -128,7 +128,7 @@
             figure
               img(src='@/assets/curso/tema1/img14.svg', alt='Drogas naturales')        
         .h4.text-center Farmacognosia especial
-        p.mb-0 Enfoca sus estudios en las drogas naturales y las agrupa según su estructura química: alcaloides, aceites esenciales, glúcidos cardiotónicos, flavonoides, cumarinas, gomas, resinas, pectinas, cumarinas, etc.
+        p.mb-0 Enfoca sus estudios en las drogas naturales y las agrupa según su estructura química: alcaloides, aceites esenciales, glúcidos cardiotónicos, flavonoides, cumarinas, gomas, resinas, pectinas, etc.
 
     .row.justify-content-start.align-items-center.mb-5(data-aos="fade-right")
       .col-auto.px-0
