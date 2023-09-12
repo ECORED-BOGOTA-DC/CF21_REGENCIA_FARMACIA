@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Fitoquímica
@@ -73,7 +73,7 @@
             i.fas.fa-atom(style="color: #00BCD4;")
             p.mb-0 #[strong Neolignano]: posibles propiedades para el tratamiento de cáncer de seno.
 
-    .h5.text-center.mb-5 Dentro de las sustancias fitoquímicas más importantes se pueden encontrar las siguientes:
+    .h5.text-center.mb-5(data-aos="fade-right") Dentro de las sustancias fitoquímicas más importantes se pueden encontrar las siguientes:
 
     .BGIMG02.px-md-5.px-4.mb-5
       .row.justify-content-center
@@ -125,8 +125,8 @@
                 p.mb-0 #[strong Compuestos órgano sulfúrico].
               p.mb-1 (Ajo)
 
-    p Para el estudio de las plantas medicinales se requiere de una alta rigurosidad y del cumplimiento de cada una de las etapas para garantizar la calidad de las sustancias químicas.
-    .h5 Las etapas constan de los siguientes pasos:
+    p(data-aos="fade-right") Para el estudio de las plantas medicinales se requiere de una alta rigurosidad y del cumplimiento de cada una de las etapas para garantizar la calidad de las sustancias químicas.
+    .h5(data-aos="fade-right") Las etapas constan de los siguientes pasos:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -176,7 +176,7 @@
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema3/img06.png' alt="Imagen decorativa")
 
-    .h5.text-center.mb-5 A continuación, se definen las características de cada una de las etapas del proceso de estudio de las plantas medicinales:
+    .h5.text-center.mb-5(data-aos="fade-right") A continuación, se definen las características de cada una de las etapas del proceso de estudio de las plantas medicinales:
 
     TabsA.color-primario.mb-5(data-aos="zoom-in")
       .tarjeta.BGR04.p-4(titulo="Identificación")
@@ -359,8 +359,6 @@
     ModalA(:abrir-modal.sync="modal6")
       div
         img(src='@/assets/curso/tema3/img12.svg' alt="Imagen decorativa")
-        
-
 
 </template>
 

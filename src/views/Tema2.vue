@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Aplicaciones y relaciones con otras ciencias
@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
         p Cuando la farmacognosia se estableció como ciencia enfocó sus estudios en las sustancias de origen natural, interesándose más las drogas vegetales y su:
-        .row.justify-content-center
+        .row.justify-content-center.mb-5
           .col-lg.mb-lg-0.mb-4
             ul.lista-ul--color
               li(style="margin-bottom: 2px")

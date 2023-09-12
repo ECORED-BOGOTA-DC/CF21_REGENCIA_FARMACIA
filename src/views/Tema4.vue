@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Métodos de extracción
@@ -38,14 +38,14 @@
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/tema4/img02.jpg')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/tema4/img02.jpg')})`}" data-aos="fade-right"
       )
-      .bloque-texto-g__texto.p-4
+      .bloque-texto-g__texto.p-4(data-aos="fade-left")
         p.mb-0 Permite obtener los principios activos disueltos en los fluidos propios de la planta, los cuales una vez extraídos, se denominan jugo. La extracción mecánica se puede realizar por expresión, la cual consiste en ejercer una presión sobre la droga, por calor o mediante incisiones por las que fluyen los fluidos de la planta.
 
-    p.mb-5 A continuación, se muestra un ejemplo del método de expresión por calor y presión, el cual se refiere a la acción mecánica que se lleva a cabo cuando se exprime un material vegetal para obtener la esencia de este. Se utiliza en casos como la lima, limón, mandarina y naranja. Se exprimen todas las esencias que contienen los materiales vegetales dentro de este y se realiza la recolección para su uso luego de pasar por el proceso de filtración.
+    p.mb-5(data-aos="fade-right") A continuación, se muestra un ejemplo del método de expresión por calor y presión, el cual se refiere a la acción mecánica que se lleva a cabo cuando se exprime un material vegetal para obtener la esencia de este. Se utiliza en casos como la lima, limón, mandarina y naranja. Se exprimen todas las esencias que contienen los materiales vegetales dentro de este y se realiza la recolección para su uso luego de pasar por el proceso de filtración.
 
-    TabsB.color-primario.mb-5
+    TabsB.color-primario.mb-5(data-aos="zoom-in")
       .BG07(titulo="Extracción por expresión" :icono="require('@/assets/curso/tema4/img03.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-10
@@ -59,8 +59,8 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Método de extracción por destilación
 
-    p Es una técnica que se basa en la diferente volatilidad de los componentes de la droga, lo cual permite la separación de componentes volátiles de otros que son menos o nada volátiles. Se suelen hacer destilaciones por arrastre de vapor o de hidrodestilaciones que facilitan la extracción de los principios activos volátiles. La destilación permite obtener, por ejemplo, las esencias de las drogas. Es un método en el que se utiliza una fuente de calor, por lo que solo es aplicable a principios activos termoestables.
-    .h5.text-center.mb-5 En la siguiente figura se muestra el montaje que se debe hacer, los implementos y el proceso para este tipo de extracción.
+    p(data-aos="fade-right") Es una técnica que se basa en la diferente volatilidad de los componentes de la droga, lo cual permite la separación de componentes volátiles de otros que son menos o nada volátiles. Se suelen hacer destilaciones por arrastre de vapor o de hidrodestilaciones que facilitan la extracción de los principios activos volátiles. La destilación permite obtener, por ejemplo, las esencias de las drogas. Es un método en el que se utiliza una fuente de calor, por lo que solo es aplicable a principios activos termoestables.
+    .h5.text-center.mb-5(data-aos="fade-right") En la siguiente figura se muestra el montaje que se debe hacer, los implementos y el proceso para este tipo de extracción.
 
     .BGIMG01.px-md-5.px-4.mb-5
       .row.justify-content-center(data-aos="zoom-in")
@@ -71,10 +71,10 @@
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.3 Método de extracción con solventes
 
-    p Los procesos de extracción con solventes son los más utilizados para la obtención de principios activos, consisten en poner en contacto la droga con solventes en los cuales sea solubles. Los principios activos deben pasar de la droga al disolvente, con el fin de obtener un extracto líquido. Luego de este proceso, el extracto se debe concentrar hasta que la cantidad de disolvente sea mínima. 
-    .h5.mb-5 Para que la extracción se lleve a cabo de manera correcta hay que tener presente las siguientes recomendaciones: 
+    p(data-aos="fade-right") Los procesos de extracción con solventes son los más utilizados para la obtención de principios activos, consisten en poner en contacto la droga con solventes en los cuales sea solubles. Los principios activos deben pasar de la droga al disolvente, con el fin de obtener un extracto líquido. Luego de este proceso, el extracto se debe concentrar hasta que la cantidad de disolvente sea mínima. 
+    .h5.mb-5(data-aos="fade-right") Para que la extracción se lleve a cabo de manera correcta hay que tener presente las siguientes recomendaciones: 
 
-    .BGM08.pb-4.px-md-5.px-4.mb-5
+    .BGM08.pb-4.px-md-5.px-4.mb-5(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.justify-content-center.align-items-center
           .col-lg-5.order-lg-1.order-2
@@ -112,12 +112,12 @@
     #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.4 Proceso de extracción con solventes
 
-    p Los procesos de extracción más simples que se utilizan se dividen de acuerdo con el tipo de disolvente utilizado. Se conocen dos tipos:
-    .h5.text-center.mb-5 Extracción con agua
+    p(data-aos="fade-right") Los procesos de extracción más simples que se utilizan se dividen de acuerdo con el tipo de disolvente utilizado. Se conocen dos tipos:
+    .h5.text-center.mb-5(data-aos="fade-right") Extracción con agua
  
-    TabsB.color-primario.mb-5
+    TabsB.color-primario.mb-5(data-aos="zoom-in")
       .BG07(titulo="Infusión" :icono="require('@/assets/curso/tema4/img13.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-7.order-lg-1.order-2
             ul.lista-ul--color.mb-0
               li(style="margin-bottom: 2px")
@@ -141,7 +141,7 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img13.png' alt="Imagen decorativa")
       .BG07(titulo="Decocción o cocimiento" :icono="require('@/assets/curso/tema4/img14.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-7.order-lg-1.order-2
             ul.lista-ul--color.mb-0
               li(style="margin-bottom: 2px")
@@ -156,15 +156,15 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img14.png' alt="Imagen decorativa")
       .BG07(titulo="Destilación en corriente de vapor" :icono="require('@/assets/curso/tema4/img15.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-11
             .tarjeta.tarjeta--blanca.p-4
             img(src='@/assets/curso/tema4/img16.svg' alt="Imagen que contiene el proceso de destilación en corriente de vapor, el cual contiene:<br>El vapor atraviesa el material vegetal y se vaporiza y se evapora el aceite.<br>Torta<br>Aceite esencial de la parte superior del separador<br>Corriente de entrada<br>Mezcla de vapor y vapores de aceite<br>Salida de agua caliente del condensador<br>Condensador<br>Entrada de agua fría al condensador<br>Separador<br>Hidrolato de la parte inferior del separador")
 
-    .h5.text-center.mb-5 Extracción con disolventes orgánicos:
-    TabsB.color-primario.mb-5
+    .h5.text-center.mb-5(data-aos="fade-right") Extracción con disolventes orgánicos:
+    TabsB.color-primario.mb-5(data-aos="zoom-in")
       .BG07(titulo="Infusión" :icono="require('@/assets/curso/tema4/img17.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-7.order-lg-1.order-2
             p La droga con el grado de tenuidad prescripto se pone en contacto con el solvente en un recipiente de cierre perfecto a temperatura ambiente. Se deben realizar agitaciones frecuentes a lo largo de varios días, tratando de influenciar el gradiente de concentración.
             p Al principio de la extracción este gradiente se encuentra en su punto máximo, con el correr de los días a pesar de la agitación, va disminuyendo.
@@ -174,7 +174,7 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img17.png' alt="Imagen decorativa")
       .BG07(titulo="Digestión" :icono="require('@/assets/curso/tema4/img18.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-7.order-lg-1.order-2
             p Es un procedimiento similar a la maceración, pero abreviado y efectuado con ayuda del calor (35 - 55 °C, aunque se acepta de 40 a 80 °C).
             p Se emplea para p. a. que son poco solubles en frío y cuando el solvente a ebullición puede alterarlos o disolver otras sustancias perjudiciales o inactivas. La temperatura de trabajo previene el ataque microbiano.
@@ -183,18 +183,17 @@
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img18.png' alt="Imagen decorativa")
       .BG07(titulo="Percolación o lixiviación" :icono="require('@/assets/curso/tema4/img19.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-7.order-lg-1.order-2
             p.mb-0 Se trata de un proceso de paso, si bien hay una maceración previa, el disolvente se renueva de manera continua y debido a ello mantiene el gradiente de concentración lo más alto posible, el disolvente corre de arriba hacia abajo a través de la capa de la droga, el disolvente puro desplaza al que contiene la sustancia extraída sin ser necesario aplicar presión.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img19.png' alt="Imagen decorativa")
       .BG07(titulo="Extracción por aparato soxhlet" :icono="require('@/assets/curso/tema4/img20.svg')")
-        .row.justify-content-center.py-4.py-md-5
+        .row.justify-content-center.p-4.p-md-5
           .col-lg-7.order-lg-1.order-2
             p.mb-0 El uso de un aparato soxhlet es una manera conveniente de preparar extractos crudos de plantas. Este proceso usa preferentemente solventes puros, aunque algunos autores han utilizado mezclas binarias (mezclas de dos solventes) o terciarias (de tres solventes).
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img21.svg' alt="Imagen decorativa")
-
 
 </template>
 

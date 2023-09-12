@@ -2,12 +2,12 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
       h1 Farmacognosia
     
-    p.mb-5 El término fue utilizado por primera vez en el año 1815 (Analectas Pharmacognostica) por el alemán Aenotheus Seydler, quien lo usó en su tesis doctoral. El nombre farmacognosia se deriva del griego #[strong #[em phamakon]], que significa droga y #[strong #[em gignosco]], adquirir el conocimiento de algo. Por lo tanto, la farmacognosia es la ciencia farmacéutica que se ocupa del estudio de las drogas y las sustancias medicamentosas de origen natural, bien sean:
+    p.mb-5(data-aos="fade-right") El término fue utilizado por primera vez en el año 1815 (Analectas Pharmacognostica) por el alemán Aenotheus Seydler, quien lo usó en su tesis doctoral. El nombre farmacognosia se deriva del griego #[strong #[em phamakon]], que significa droga y #[strong #[em gignosco]], adquirir el conocimiento de algo. Por lo tanto, la farmacognosia es la ciencia farmacéutica que se ocupa del estudio de las drogas y las sustancias medicamentosas de origen natural, bien sean:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-3.col-md-8.col-10.mb-lg-0.mb-4(data-aos="fade-right")
@@ -34,7 +34,7 @@
           p.mb-0 Es la ciencia encargada del estudio de las fuentes naturales de materia prima de interés farmacéutico, estudiando tanto sustancias con propiedades terapéuticas como sustancias tóxicas, excipientes u otras sustancias de interés farmacéutico, aunque su uso sea básicamente tecnológico y no terapéutico (por ejemplo, el algodón y el almidón). En general, trata sobre los aspectos botánicos, químicos, biológicos y económicos de las drogas, destinadas a la preparación de medicamentos, de aquí que muchos autores designan a la farmacognosia como “materia médica” o “materia farmacéutica”. La farmacognosia es la más antigua de las ciencias médicas, debido a que el hombre primitivo tuvo que aprender a distinguir los productos que le servían de alimento y los curativos de los tóxicos.
         p.mb-0 Es importante realizar un recorrido por la historia para conocer la importancia y el impacto que ha tenido la farmacognosia desde las civilizaciones antiguas hasta nuestros tiempos.
 
-    .h5.text-center.mb-5 En la siguiente línea de tiempo se podrán observar los aportes de esta ciencia en periodos específicos.
+    .h5.text-center.mb-5(data-aos="fade-right") En la siguiente línea de tiempo se podrán observar los aportes de esta ciencia en periodos específicos.
 
     PasosA.color-primario.mb-5(tipo="n")
       .row.justify-content-center.align-items-center
@@ -112,7 +112,7 @@
       .col-auto.BGRB01
         .h4.mb-0 Clasificación de la farmacognosia
     
-    .h5.text-center.mb-5 La farmacognosia se clasifica en:
+    .h5.text-center.mb-5(data-aos="fade-right") La farmacognosia se clasifica en:
     
     .tarjeta--container.row.justify-content-center.mb-5
       .col-lg-5.col-md.tarjeta.BG02.p-5(data-aos="fade-right")
@@ -136,10 +136,10 @@
       .col-auto.BGRB01
         .h4.mb-0 Ramas de la farmacognosia
     
-    p A inicios del siglo pasado el desarrollo de la farmacognosia había sido en el aspecto botánico, enfocándose en la identificación y descripción de las drogas enteras o las que se encontraban pulverizadas, teniendo en cuenta todo el proceso relacionado con su historia, comercialización, proceso para recolectarla, prepararla y almacenarla. 
-    .h5.mb-5 Estas ramas son:
+    p(data-aos="fade-left") A inicios del siglo pasado el desarrollo de la farmacognosia había sido en el aspecto botánico, enfocándose en la identificación y descripción de las drogas enteras o las que se encontraban pulverizadas, teniendo en cuenta todo el proceso relacionado con su historia, comercialización, proceso para recolectarla, prepararla y almacenarla. 
+    .h5.mb-5(data-aos="fade-left") Estas ramas son:
 
-    TabsA.color-primario.mb-5
+    TabsA.color-primario.mb-5(data-aos="zoom-in")
       .tarjeta.BGR04.p-4(titulo="Farmacoergasia")
         img(src='@/assets/curso/tema1/img15.svg', alt='Esquema de la Farmacoergasia, la cual estudia los procesos de producción realizados a las plantas relacionados con los siguientes aspectos:<br>Cultivo<br>Recolección<br>Secado<br>Almacenamiento')
       .tarjeta.BGR04.p-4(titulo="Farmacoetnología")
@@ -157,7 +157,7 @@
         p Las preparaciones farmacéuticas de Digitalis purpúrea y Digitales lanata deben estar en recipientes herméticamente cerrados protegidos de la luz, el contenido de humedad no debe de sobrepasar el 6% para así evitar la pérdida de principios activos.
         p.mb-0 Otro ejemplo relacionado con cuidados en la presentación farmacéutica es con relación a la pilocmpina. la cual se puede convertir en un isómero denominado isopilocarpina con pérdida potencial de la actividad.
 
-    p.text-center Las ramas de la farmacognosia son muy importantes; sin embargo, se enfrentan al reto del rápido desarrollo de otros sectores que han frenado su desarrollo.
+    p.text-center(data-aos="fade-right") Las ramas de la farmacognosia son muy importantes; sin embargo, se enfrentan al reto del rápido desarrollo de otros sectores que han frenado su desarrollo.
       
 </template>
 
