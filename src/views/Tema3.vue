@@ -78,7 +78,7 @@
     .BGIMG02.px-md-5.px-4.mb-5
       .row.justify-content-center
         .col-xl.col-md-6.mb-4.mb-xl-0(data-aos="fade-right")
-          .tarjeta-numerada.color-primario.hg-01.ps-5.pe-2.py-4
+          .tarjeta-numerada.color-primario.h-100.ps-5.pe-2.py-4
             .tarjeta-numerada__numero
               .h2 1
             .h5.text-center Terpenos
@@ -91,21 +91,21 @@
                 i.fas.fa-leaf(style="color: #81D4FA; margin-left: -10%")
                 | Damasco, naranja, maíz, frutillas, zanahorias, tomate, espinacas, etc.
         .col-xl.col-md-6.mb-4.mb-xl-0(data-aos="flip-up")
-          .tarjeta-numerada.color-secundario.hg-01.ps-5.pe-2.py-4
+          .tarjeta-numerada.color-secundario.h-100.ps-5.pe-2.py-4
             .tarjeta-numerada__numero
               .h2 2
             .h5.text-center Fenoles
             p.mb-5 <a style="color: #592C95; font-weight: 900">Flavonoides</a> (azul, azul anaranjado, violeta).
             img(src='@/assets/curso/tema3/img04.png' alt="Imagen decorativa")
         .col-xl.col-md-6.mb-4.mb-xl-0(data-aos="flip-up")
-          .tarjeta-numerada.color-acento-contenido.hg-01.ps-5.pe-2.py-4
+          .tarjeta-numerada.color-acento-contenido.h-100.ps-5.pe-2.py-4
             .tarjeta-numerada__numero
               .h2 3
             .h5.text-center Quercetinas
             p.mb-5 Cebolla.
             img(src='@/assets/curso/tema3/img05.png' alt="Imagen decorativa")
         .col-xl.col-md-6(data-aos="fade-left")
-          .tarjeta-numerada.color-primario.hg-01.ps-5.pe-2.py-4
+          .tarjeta-numerada.color-primario.h-100.ps-5.pe-2.py-4
             .tarjeta-numerada__numero
               .h2 4
             .h5.text-center Antocianinas
@@ -217,7 +217,7 @@
           .col-xl-4.px-1.mb-xl-0.mb-4
             .BGR05B.p-4.mb-2
               .h5.text-center.mb-0 En manojos
-            .BGR01X.hg-02.p-2
+            .BGR01X.h-100.p-2
               ul.lista-ul--color.mb-0
                 li(style="margin-bottom: 2px")
                   i.fas.fa-play-circle(style="color: #81D4FA; font-size: xx-small")
@@ -231,7 +231,7 @@
           .col-xl-4.px-1.mb-xl-0.mb-4
             .BGR03B.p-4.mb-2
               .h5.text-center.mb-0 En capas
-            .BGR01Y.hg-02.p-2
+            .BGR01Y.h-100.p-2
               ul.lista-ul--color.mb-0
                 li(style="margin-bottom: 2px")
                   i.fas.fa-play-circle(style="color: #CBBFF4; font-size: xx-small")
@@ -248,7 +248,7 @@
           .col-xl-4.px-1
             .BGR06B.p-4.mb-2
               .h5.text-center.mb-0 En marcos
-            .BGR01Z.hg-02.p-2
+            .BGR01Z.h-100.p-2
               ul.lista-ul--color.mb-0
                 li(style="margin-bottom: 2px")
                   i.fas.fa-play-circle(style="color: #88F2FF; font-size: xx-small")
@@ -326,20 +326,20 @@
               p.mb-0 Las hierbas secas se guardan en frascos de vidrio en tarros o dentro de bolsas de papel celofán o cualquier otro material que no sea impermeable, nunca dentro de bolsas de plástico.
         .row.justify-content-center.mb-2
           .col-8.px-1
-            .BGR05B.hg-03.p-3
+            .BGR05B.h-100.p-3
               p.mb-0 Los envases tienen que estar bien cerrados, para proteger la planta de polvo, insectos, humedad y sobre todo para preservar al máximo sus principios activos.
           .col-4.px-1
-            .BGR05B.hg-03.p-3
+            .BGR05B.h-100.p-3
               p.mb-0 Para guardar grandes cantidades se pueden usar sacos de harina limpios.
         .row.justify-content-center.mb-2
           .col-4.px-1
-            .BGR03B.hg-04.p-3
+            .BGR03B.h-100.p-3
               p.mb-0 En ambos casos se etiquetan con el nombre de la hierba, fecha de recolección y fecha de envasado.
           .col-4.px-1
-            .BGR03B.hg-04.p-3
+            .BGR03B.h-100.p-3
               p.mb-0 Almacenar en lugar seco y oscuro.
           .col-4.px-1
-            .BGR03B.hg-04.p-3
+            .BGR03B.h-100.p-3
               p.mb-0 Se verifica cada cierto tiempo su color, olor y se palpa para ver si se conserva quebradiza y libre de mohos.
 
     ModalA(:abrir-modal.sync="modal1")
