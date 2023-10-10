@@ -49,29 +49,38 @@
       .BG07(titulo="Extracción por expresión" :icono="require('@/assets/curso/tema4/img03.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-10
-            img(src='@/assets/curso/tema4/img04.svg' alt="Imagen que contiene un ejemplo de extracción por expresión, la cual se lleva a cabo por:<br>Planta + agua<br>Agua fría<br>Escenario<br>Aceite esencial<br>Hidrolato")
+            .titulo-sexto.color-acento-botones
+              h5 Figura 2.
+              span Proceso de extracción por expresión
+            img(src='@/assets/curso/tema4/img04.svg' style="width:950px" alt="Imagen que contiene un ejemplo de extracción por expresión, la cual se lleva a cabo por:<br>Planta + agua<br>Agua fría<br>Escenario<br>Aceite esencial<br>Hidrolato").m-auto
       .BG07(titulo="Extracción por presión" :icono="require('@/assets/curso/tema4/img05.svg')")
         .row.justify-content-center.py-4.py-md-5
           .col-lg-10
-            img(src='@/assets/curso/tema4/img06.svg' alt="Esquema con un ejemplo de extracción por presión, el cual relaciona que se hace a través de:<br>Materia prima<br>Aceite<br>Placa filtrante<br>Aceite bruto<br>Torta o pasta residual")
+            .titulo-sexto.color-acento-botones
+              h5 Figura 3.
+              span Proceso de extracción por presión
+            img(src='@/assets/curso/tema4/img06.svg' style="width:950px" alt="Esquema con un ejemplo de extracción por presión, el cual relaciona que se hace a través de:<br>Materia prima<br>Aceite<br>Placa filtrante<br>Aceite bruto<br>Torta o pasta residual").m-auto
     
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.2 Método de extracción por destilación
 
-    p(data-aos="fade-right") Es una técnica que se basa en la diferente volatilidad de los componentes de la droga, lo cual permite la separación de componentes volátiles de otros que son menos o nada volátiles. Se suelen hacer destilaciones por arrastre de vapor o de hidrodestilaciones que facilitan la extracción de los principios activos volátiles. La destilación permite obtener, por ejemplo, las esencias de las drogas. Es un método en el que se utiliza una fuente de calor, por lo que solo es aplicable a principios activos termoestables.
+    p(data-aos="fade-right") Es una técnica que se basa en la diferente volatilidad de los componentes de la droga, lo cual permite la separación de componentes volátiles de otros que son menos o nada volátiles. Se suelen hacer destilaciones por arrastre de vapor o de hidrodestilación que facilitan la extracción de los principios activos volátiles. La destilación permite obtener, por ejemplo, las esencias de las drogas. Es un método en el que se utiliza una fuente de calor, por lo que solo es aplicable a principios activos termoestables.
     .h5.text-center.mb-5(data-aos="fade-right") En la siguiente figura se muestra el montaje que se debe hacer, los implementos y el proceso para este tipo de extracción.
 
     .BGIMG01.px-md-5.px-4.mb-5
       .row.justify-content-center(data-aos="zoom-in")
         .col-lg-10
+          .titulo-sexto.color-acento-botones
+            h5 Figura 4.
+            span Proceso del método de extracción por destilación
           img(src='@/assets/curso/tema4/img07.svg' alt="Imagen que contiene un ejemplo de montaje para la extracción por destilación, el cual relaciona:<br>Droga que se destila<br>Termómetro<br>Vapor<br>Salida de agua<br>Condensador<br>Matraz receptor")
     
     separador
     #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 4.3 Método de extracción con solventes
 
-    p(data-aos="fade-right") Los procesos de extracción con solventes son los más utilizados para la obtención de principios activos, consisten en poner en contacto la droga con solventes en los cuales sea solubles. Los principios activos deben pasar de la droga al disolvente, con el fin de obtener un extracto líquido. Luego de este proceso, el extracto se debe concentrar hasta que la cantidad de disolvente sea mínima. 
+    p(data-aos="fade-right") Los procesos de extracción con solventes son los más utilizados para la obtención de principios activos, consisten en poner en contacto la droga con solventes en los cuales sean solubles. Los principios activos deben pasar de la droga al disolvente, con el fin de obtener un extracto líquido. Luego de este proceso, el extracto se debe concentrar hasta que la cantidad de disolvente sea mínima. 
     .h5.mb-5(data-aos="fade-right") Para que la extracción se lleve a cabo de manera correcta hay que tener presente las siguientes recomendaciones: 
 
     .BGM08.pb-4.px-md-5.px-4.mb-5(data-aos="zoom-in")
@@ -85,7 +94,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-6.order-lg-1.order-2
             .h4 <a style="color: #00BCD4">Naturaleza del solvente</a>
-            p Principalmente se utilizan en las extracciones el agua y las mezclas hidroalcohólicas (agua y alcohol etílico) en proporción variable. 
+            p Principalmente, se utilizan en las extracciones, el agua y las mezclas hidroalcohólicas (agua y alcohol etílico) en proporción variable. 
             p.mb-0 También es posible utilizar otros solventes orgánicos como acetona, éter etílico, hexano, propilenglicol (muy usado en cosmética), entre otros. El agua es un buen solvente de muchos principios activos de las drogas; pero por esta misma razón, resulta generalmente poco selectivo. Además, muchos principios activos se hidrolizan en agua. Por otra parte, los extractos acuosos tienen una estabilidad poco duradera una vez preparados y deben de ser obtenidos para su utilización en un periodo de tiempo relativamente corto. La utilización de mezclas variables de agua y alcohol permite seleccionar las sustancias sin interés farmacológico, así como separar los principios activos entre sí.
           .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema4/img09.png' alt="Imagen decorativa")
@@ -158,7 +167,9 @@
       .BG07(titulo="Destilación en corriente de vapor" :icono="require('@/assets/curso/tema4/img15.svg')")
         .row.justify-content-center.p-4.p-md-5
           .col-lg-11
-            .tarjeta.tarjeta--blanca.p-4
+            .titulo-sexto.color-acento-botones
+              h5 Figura 5.
+              span Proceso de destilación en corriente de vapor
             img(src='@/assets/curso/tema4/img16.svg' alt="Imagen que contiene el proceso de destilación en corriente de vapor, el cual contiene:<br>El vapor atraviesa el material vegetal y se vaporiza y se evapora el aceite.<br>Torta<br>Aceite esencial de la parte superior del separador<br>Corriente de entrada<br>Mezcla de vapor y vapores de aceite<br>Salida de agua caliente del condensador<br>Condensador<br>Entrada de agua fría al condensador<br>Separador<br>Hidrolato de la parte inferior del separador")
 
     .h5.text-center.mb-5(data-aos="fade-right") Extracción con disolventes orgánicos:
@@ -190,10 +201,13 @@
             img(src='@/assets/curso/tema4/img19.png' alt="Imagen decorativa")
       .BG07(titulo="Extracción por aparato soxhlet" :icono="require('@/assets/curso/tema4/img20.svg')")
         .row.justify-content-center.p-4.p-md-5
-          .col-lg-7.order-lg-1.order-2
-            p.mb-0 El uso de un aparato soxhlet es una manera conveniente de preparar extractos crudos de plantas. Este proceso usa preferentemente solventes puros, aunque algunos autores han utilizado mezclas binarias (mezclas de dos solventes) o terciarias (de tres solventes).
-          .col-lg-4.col-8.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/tema4/img21.svg' alt="Imagen decorativa")
+          .col-lg-6.order-lg-1.order-2
+            p.mb-0 El uso de un aparato #[i soxhlet] es una manera conveniente de preparar extractos crudos de plantas. Este proceso usa preferentemente solventes puros, aunque algunos autores han utilizado mezclas binarias (mezclas de dos solventes) o terciarias (de tres solventes).
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            .titulo-sexto.color-acento-botones
+              h5 Figura 6.
+              span Proceso de extracción por aparato Soxhlet
+            img(src='@/assets/curso/tema4/img21.svg' style="width:350px" alt="Imagen que contiene el proceso de extracción por aparato Soxhlet, el cual contiene: Salida de agua fría. Condensador. Entrada de agua fría. Dedal de papel. Material sólido para extracción. Solvente pasando por los muros del dedal. Camino del flujo: Vapor solvente. Líquido solvente. Solvente.").m-auto
 
 </template>
 

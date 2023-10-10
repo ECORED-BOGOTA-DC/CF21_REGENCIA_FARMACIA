@@ -155,7 +155,7 @@
         p Los recipientes de madera, tela o plástico no son recomendables porque suelen ser relativamente permeables al aire y a los agentes externos. Las esencias deben de conservarse en envases herméticos totalmente llenos y en un lugar frío y oscuro.
         p Observaciones similares son aplicables a los aceites fijos, especialmente al aceite de hígado de bacalao, en este último caso, el aire del recipiente se reemplaza por un gas inerte.
         p Las preparaciones farmacéuticas de Digitalis purpúrea y Digitales lanata deben estar en recipientes herméticamente cerrados protegidos de la luz, el contenido de humedad no debe de sobrepasar el 6% para así evitar la pérdida de principios activos.
-        p.mb-0 Otro ejemplo relacionado con cuidados en la presentación farmacéutica es con relación a la pilocmpina. la cual se puede convertir en un isómero denominado isopilocarpina con pérdida potencial de la actividad.
+        p.mb-0 Otro ejemplo relacionado con cuidados en la presentación farmacéutica es con relación a la pilocarpina. la cual se puede convertir en un isómero denominado isopto carpina con pérdida potencial de la actividad.
 
     p.text-center(data-aos="fade-right") Las ramas de la farmacognosia son muy importantes; sin embargo, se enfrentan al reto del rápido desarrollo de otros sectores que han frenado su desarrollo.
       

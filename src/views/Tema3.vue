@@ -65,7 +65,7 @@
             p.mb-0 #[strong Benzofenona]: sustancia utilizada en productos cosméticos (lociones, jabones), para evitar que la luz ultravioleta UV degrade el color y el olor de estos productos.
           li(style="margin-bottom: 2px")
             i.fas.fa-atom(style="color: #00BCD4;")
-            p.mb-0 #[strong Estilbeno]: posee actividades antioxidantes y ayudan a la prevenir y tratar enfermedades oncológicas y neurodegenerativas, asma, depresión, parkinson, alzheimer y recientemente diabetes y obesidad.
+            p.mb-0 #[strong Estilbeno]: posee actividades antioxidantes y ayudan a prevenir y tratar enfermedades oncológicas y neurodegenerativas, asma, depresión, parkinson, alzheimer y recientemente diabetes y obesidad.
           li(style="margin-bottom: 2px")
             i.fas.fa-atom(style="color: #00BCD4;")
             p.mb-0 #[strong Ácido fenilpropanoico]: conservante en productos alimenticios.
@@ -115,11 +115,11 @@
               li(style="margin-bottom: 2px; margin-left: -10%")
                 i.fas.fa-leaf(style="color: #81D4FA;")
                 p.mb-0 #[strong Isoflavonoides].
-              p.mb-1 (Porotos, soja, etc). 
+              p.mb-1 (Porotos, soja, etc.)
               li(style="margin-bottom: 2px; margin-left: -10%")
                 i.fas.fa-leaf(style="color: #81D4FA;")
                 p.mb-0 #[strong Tioles.] 
-              p.mb-1 Azufre (coliflor, repollo, bróculi, etc). 
+              p.mb-1 Azufre (coliflor, repollo, bróculi, etc.)
               li(style="margin-bottom: 2px; margin-left: -10%")
                 i.fas.fa-leaf(style="color: #81D4FA;")
                 p.mb-0 #[strong Compuestos órgano sulfúrico].
@@ -302,7 +302,7 @@
           div(x="98%" y="38%" tooltip="Ejemplo" numero="+")
             .h5 Ejemplo
             p Producción de alcaloides en las Solanáceas, está directamente relacionada con el número de horas de insolación.
-            p #[strong Naturaleza química]: mayor número de horas de insolación de las hojas de menta (Mentha piperita) biosintetizan preferentemente mentona y mentol, mientras que los días cortos producen mentofurano. 
+            p #[strong Naturaleza química]: mayor número de horas de insolación de las hojas de menta (#[i Mentha piperita]) biosintetizan preferentemente mentona y mentol, mientras que los días cortos producen mentofurano. 
             p.mb-0 Sirve para determinar la hora de recolección, y será en el momento que exista un mayor contenido de principios activos.
           div(x="17%" y="91%" tooltip="Características físicas" numero="+")
             .h5 Características físicas
